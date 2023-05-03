@@ -11,6 +11,8 @@ nav {
     justify-content: end;
     max-width: 1152px;
     margin: 27px auto 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
 }
 
 nav a {
@@ -79,14 +81,15 @@ nav a {
     margin: 0 auto;
 }
 
-.projects-container {
+.products-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 21px;
+    list-style-type: none;
 }
 
-.projects-container div {
+.products-container li {
     background: #FFF;
     width: 49%;
     margin: 0 0 20px 0;
@@ -94,12 +97,12 @@ nav a {
     border-radius: 8px;
 }
 
-.projects-container div a {
+.products-container div a {
     text-decoration: none;
     color:#000;
 }
 
-.projects-container div div {
+.products-container li div {
     width: 100%;
     height: 170px;
     border-radius: 8px;
@@ -107,100 +110,14 @@ nav a {
     background-size: cover;
 }
 
-.projects-container div h3 {
+.products-container div h3 {
     font-size: 26px;
     font-weight: bold;
     margin: 14px 0 9px 23px;
 }
 
-.projects-container div p {
+.products-container div p {
     font-size: 16px;
-    margin-left: 23px;
-}
-
-#experiences-container {
-    width: 1080px;
-    margin: 55px auto;
-}
-
-#experiences-container section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#experiences-container h2 {
-    margin: 0 0 15px 110px;
-    font-size: 28px;
-}
-
-.experience-item {
-    width: 480px;
-    padding: 20px 20px 27px 20px;
-    background: #384772;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 37px;
-    border-radius: 48px;
-    color: #FFF;
-}
-
-.experience-item img {
-    width: 88px;
-    height: 88px;
-    border-radius: 50%;
-    background: #FFF;
-}
-
-.experience-item h3 {
-    font-size: 36px;
-    margin: auto 0 0 13px;
-}
-
-.experience-item p {
-    margin-top: 12px;
-    font: 16px;
-}
-
-.experience-item span {
-    margin: 26px 0;
-    width: 100%;
-    font-size: 22px;
-}
-
-.experience-item ul {
-    width: 100%;
-    margin-left: 20px;
-}
-
-.experience-item ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-#skills-container {
-    width: 100%;
-}
-
-#skills-container h2 {
-    font-size: 28px;
-    margin-bottom: 6px;
-    text-align: center;
-}
-
-#skills-container div {
-    width: 100%;
-    background: #384772;
-    padding: 12px 0;
-    display: flex;
-    justify-content: center;
-}
-
-#skills-container div img {
-    height: 75px;
-}
-
-#skills-container div img + img {
     margin-left: 23px;
 }
 
